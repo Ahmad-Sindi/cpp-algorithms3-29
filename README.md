@@ -1,11 +1,44 @@
 # Algorithm Challenge #29 – Count Capital and Small Letters (Level 3)
 
-🔠 **Problem Description**
--
-This challenge reads a string from the user and analyzes its content by counting:
-- The number of uppercase (capital) letters
-- The number of lowercase (small) letters
+🧠 **Problem Overview**
 
+This challenge analyzes a string by counting uppercase and lowercase letters.
+To demonstrate engineering growth, the problem is solved using two different approaches.
+
+---
+
+## 🛠️ Implemented Approaches
+
+### 🔹 Method 1 – Direct Counting
+- Uses two dedicated functions
+- Simple and beginner-friendly
+- Procedural and problem-focused
+
+📄 File: `count_small_capital_letters.cpp`
+
+---
+
+### 🔹 Method 2 – Enum-Based Generalized Design
+- Uses an enumeration to control logic
+- Single reusable function
+- Reduces duplication
+- Easier to extend and maintain
+
+📄 File: `CountLettersUsingEnum.cpp`
+
+---
+
+## 🧩 Engineering Insight
+
+Both solutions are correct, but they represent different mindsets:
+
+- **Method 1:** Solve the problem
+- **Method 2:** Design for change
+
+This comparison highlights the transition from basic algorithm implementation
+to design-aware software engineering.
+
+---
 Example:
 -
 Input:  
@@ -25,25 +58,6 @@ Small Letters Count = 7
 - Separating logic into clear functions
 - Understanding text analysis fundamentals
 
----
-
-🧩 **Algorithm Concept**
--
-This problem represents a **frequency-counting algorithm**, where each element
-in the input sequence is inspected and categorized.
-
-Key characteristics:
-- Linear time complexity O(n)
-- No additional memory structures required
-- Clear and deterministic results
-
-Such algorithms are widely used in:
-- Text analysis
-- Data validation
-- Compilers and tokenizers
-- Input sanitization systems
-
----
 
 📂 **File Information**
 -
@@ -56,12 +70,6 @@ Such algorithms are widely used in:
 
 ---
 
-💬 **Notes**
--
-Counting and classification problems form the backbone of many real-world systems.
-Mastering them is essential for building reliable and scalable software.
-
----
 Linkedin
 -
 www.linkedin.com/in/ahmad-sindi-61550b325
@@ -69,7 +77,8 @@ www.linkedin.com/in/ahmad-sindi-61550b325
 ---
 
 🏷️ **Tags**
--
-#Cpp #Algorithms #TextAnalysis #CharacterClassification  
-#SoftwareEngineering #ProblemSolving #CleanCode  
-#ComputerScience #Programming #Level3
+
+#Cpp #Algorithms #SoftwareEngineering #CleanCode  
+#Refactoring #ProblemSolving #AlgorithmChallenge #TextAnalysis #CharacterClassification  
+#ComputerScience #Programming
+
