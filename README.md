@@ -48,8 +48,8 @@ Such algorithms are widely used in:
 📂 **File Information**
 -
 - **Language:** C++
-- **File Name:**
-  count_small_capital_letters.cpp
+- **File Name:**  
+  count_small_capital_letters.cpp  
   CountLettersUsingEnum.cpp
 - **Level:** 3
 - **Challenge Number:** #29
